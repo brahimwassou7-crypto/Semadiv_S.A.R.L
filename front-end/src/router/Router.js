@@ -19,7 +19,6 @@ const routes = [
   { path: "/bordure", component: bordure_des_rutes },
   { path: "/hourdis", component: hourdis },
   { path: "/homeproductpage", component: HomeProduct_page },
-  { path: "/:pathMatch(.*)*", redirect: "/" },
 ];
 
 const router = createRouter({

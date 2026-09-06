@@ -9,7 +9,6 @@ import bordure_des_rutes from "@/pages/bordure.vue";
 import hourdis from "@/pages/hourdis.vue";
 import HomeProduct_page from "@/pages/ProductsHome.vue";
 
-
 const routes = [
   { path: "/home", component: HomeView },
   { path: "/Contact", component: ContactView },
@@ -20,7 +19,7 @@ const routes = [
   { path: "/bordure", component: bordure_des_rutes },
   { path: "/hourdis", component: hourdis },
   { path: "/homeproductpage", component: HomeProduct_page },
-
+  { path: "/:pathMatch(.*)*", redirect: "/" },
 ];
 
 const router = createRouter({

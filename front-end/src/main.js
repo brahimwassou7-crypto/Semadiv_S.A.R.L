@@ -1,7 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router/Router";
-import "./Style.css";
 import i18n from "./i18n/i18n.js";
 
 // Import Swiper styles

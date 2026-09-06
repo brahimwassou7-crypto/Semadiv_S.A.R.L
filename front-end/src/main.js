@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router/Router";
 import i18n from "./i18n/i18n.js";
+import "./Style.css";
 
 // Import Swiper styles
 import "swiper/css";

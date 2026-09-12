@@ -1,4 +1,4 @@
-# semadiv_sarl
+# Semadiv_S.A.R.L
 
 This template should help get you started developing with Vue 3 in Vite.
 
